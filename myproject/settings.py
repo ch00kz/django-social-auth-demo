@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # third party
     'social_django',
     # my apps
-    'my_auth',
+    'myauthapp',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +84,7 @@ DATABASES = {
     }
 }
 
-AUTH_USER_MODEL = 'my_auth.User'
+AUTH_USER_MODEL = 'myauthapp.User'
 LOGIN_REDIRECT_URL = 'dashboard'
 
 # Password validation

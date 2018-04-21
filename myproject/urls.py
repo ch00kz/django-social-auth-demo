@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import include, path
 
-from my_auth.views import login
+from myauthapp.views import login
 from .views import dashboard
 
 urlpatterns = [
